@@ -84,7 +84,6 @@ input, select, textarea {
 	transition: .5s ease-in-out;
 	border-radius: 0.35em;
 	display: block;
-	opacity: 0.5;
 	position: absolute;
 	
 }
