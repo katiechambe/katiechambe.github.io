@@ -89,6 +89,7 @@ input, select, textarea {
 }
 .hover12 figure:hover img {
 	opacity: .8;
+	background: #000000;
 	content: 'view';
 }
 
