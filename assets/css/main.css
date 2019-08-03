@@ -72,6 +72,21 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* This is where I'm adding the stuff to make my boxes/icons and allow them to dim upon hover */
+/* Opacity #2 */
+.hover12 figure {
+	background: #000000;
+}
+.hover12 figure img {
+	opacity: 1;
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+.hover12 figure:hover img {
+	opacity: .5;
+}
+
+
 /* Basic */
 
 	html {
