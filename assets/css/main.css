@@ -76,6 +76,7 @@ input, select, textarea {
 /* Opacity #2 */
 .hover12 figure {
 	background: #000000;
+	display: inline-block;
 	border-radius: 0.35em;
 }
 .hover12 figure img {
@@ -83,12 +84,13 @@ input, select, textarea {
 	-webkit-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
 	border-radius: 0.35em;
-	display: block;
+	display: inline-block;
 	position: absolute;
 	
 }
 .hover12 figure:hover img {
 	opacity: .8;
+	background: #000000;
 	content: 'view';
 }
 
