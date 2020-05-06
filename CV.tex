@@ -1,0 +1,247 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{hhline}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\renewcommand{\thepage}{\roman{page}}
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\textbf{\textsc{Katie Chamberlain}} \footnotesize{she/her}}
+ 
+ 
+% Draw a horizontal line the whole width of resume:
+\vspace{-.3\baselineskip}
+\moveleft\hoffset\vbox{\hrule width\resumewidth height .8pt}
+% \moveleft1\hoffset\vbox{\leaders\vrule width \resumewidth\vskip.7pt} % or other desired thickness
+%\vskip\no % ditto
+\vspace{-.8\baselineskip}
+\moveleft\hoffset\vbox{\hrule width\resumewidth height .4pt} % or other desired thickness
+\vskip\smallskipamount
+
+
+% \moveleft\hoffset\vbox{\hrule width\resumewidth height .4pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+\moveleft.5\hoffset\centerline{933 N. Cherry Avenue, Tucson, AZ 85721}
+% \moveleft.5\hoffset\centerline{(406) 465-5814}
+\moveleft.5\hoffset\centerline{{\footnotesize{email:}} katiechambe@email.arizona.edu}
+\moveleft.5\hoffset\centerline{{\footnotesize{website:}} \href{http://katiechambe.github.io}{katiechambe.github.io}}
+
+
+
+\begin{resume}
+
+\section{\textsc{Education}}
+
+{\sl Ph.D., Astronomy and Astrophysics} \hfill        May 2023 (Expected)\\
+{\sl M.S., Astronomy and Astrophysics} \hfill        May 2020 (Expected)\\
+Steward Observatory, University of Arizona, Tucson, AZ\\
+Advisor: Gurtina Besla
+%Cumulative GPA: -
+
+
+{\sl B.S., Physics} \hfill        May 2018 \\
+\textit{Secondary Major: Mathematics}\\
+Montana State University, Bozeman, MT\\
+Advisor: Nicolas Yunes
+%Cumulative GPA: 3.85\\ 
+%Major GPA: 3.91
+
+%Reed College, Portland, OR, B.A., Physics, May 2012\\
+%			Montana State University, Bozeman, MT, M.S., Physics, May 2014\\
+%			Montana State University, Bozeman, MT, Ph.D., Physics, Degree in progress
+ 
+\bigskip
+\section{\textsc{Research Interests}}
+Dwarf Galaxies 
+
+\begin{itemize}
+\item[-] Frequency of isolated pairs and satellites 
+\item[-] Orbital and internal dynamics of interacting pairs
+\item[-] Hydrodynamic and cosmological simulations
+\end{itemize}
+\bigskip
+
+\section{\textsc{Publications}}
+\emph{Frequency-domain waveform approximants capturing Doppler shifts}\\
+\textbf{K. Chamberlain}, C. Moore, D. Gerosa, N. Yunes\\
+Phys. Rev. D \textbf{99}, 024025 (2019)
+
+\emph{Theoretical Physics Implications of Gravitational Wave Observation 
+         with Future\\ Detectors}\\
+\textbf{K. Chamberlain}, N. Yunes\\
+Phys. Rev. D \textbf{96}, 084039 (2017)
+
+\emph{Theory-Agnostic Constraints on Black-Hole Dipole Radiation with  
+         Multi-Band Gravitational-Wave Astrophysics}\\
+E. Barausse, N. Yunes,  \textbf{K. Chamberlain}  \\
+Physical Review Letters \textbf{116}, 241104 (2016)
+\smallskip
+
+
+ 
+\section{\textsc{Research Experience}}
+	{\sl Graduate Research Assistant} \\
+	Steward Observatory, University of Arizona \hfill 2018 - Present\\
+	Advisor: Gurtina Besla
+
+	{\sl LIGO Summer Undergraduate Research Fellowship (REU)} \\
+	California Institute of Technology TAPIR Group \hfill Summer 2017
+
+	{\sl Undergraduate Research Assistant} \\
+	Montana State University - eXtreme Gravity Institute \hfill 2015 - 2018\\
+	Advisor: Nicolas Yunes
+	
+	{\sl Research Apprentice} \\
+	Montana Space Grant Consortium \hfill 2016 - 2017
+
+ \medskip
+\section{\textsc{Computational Skills}}
+\emph{Proficient:} Python, Mathematica, LaTeX, HPC, HTML, git, emacs. \\
+\emph{Some experience:} Java, MATLAB, bash, vi. \\
+
+
+	
+
+\bigskip
+
+\section{\textsc{Honors,\\ Awards \& Grants}}
+{\textsc{Montana State University}}\\
+{\sl Undergraduate Scholars Program Grant}\hfill	2015 - 2018\\
+{\sl Research Travel Grants} \hfill	2017, 2018\\
+{\sl Montana University System Honors Scholarship}\hfill		2013 - 2017
+
+{\textsc{Montana State University Physics Department}}\\
+{\sl Outstanding Graduating Senior in Physics}\hfill	2018\\
+{\sl Outstanding Undergraduate Physics Researcher Award} \hfill        2017 - 2018  \\
+{\sl Georgeanne Caughlan Scholarship for Women in Physics} \hfill        2017 - 2018 \\
+{\sl John and Marilyn (Milburn) Asbridge Family Physics Scholarship}\hfill		2015 - 2017
+
+{\textsc{Montana State University Mathematics Department}}\\
+{\sl Outstanding Graduating Senior in Math}\hfill	2018\\
+{\sl John L Margaret Mathematics and Science Scholarship} \hfill        2017 - 2018 \\
+{\sl Mathematics Department Scholarship for Excellence in Coursework}\hfill 		2014 - 2015
+
+{\textsc{Other}}\\
+American Physical Society Division of Gravitation Travel Award \hfill 2018
+
+
+
+\bigskip
+
+\section{\textsc{Talks$^{\dagger}$ \& Posters$^{*}$}}
+\emph{${}^{*}$Frequency of dwarf galaxy pairs throughout cosmic time}. \\
+Small Galaxies, Cosmic Questions Meeting.\\  
+Durham, UK, July 2019
+
+\emph{${}^{\dagger}$Towards a ``Kicked'' Frequency-Domain Waveform Approximant}. \\
+APS April Meeting.\\  
+Columbus, Ohio, April 2018
+
+\emph{${}^{\dagger}$Testing Modified Gravity with Future Gravitational Wave Detectors}. \\
+Pacific Coast Gravity Meeting.\\  
+California Institute of Technology, March 2018
+
+\emph{${}^{\dagger}$Measuring Black Hole Kicks with Future Gravitational Wave Detectors}. \\
+LIGO-Caltech Summer Research Celebration.\\  
+California Institute of Technology, August 2017
+
+\emph{$^{*}$Theoretical Physics Implications with Future Gravitational Wave Detectors}.\\
+Poster Presentation at Montana Space Grant Consortium Research Celebration. \\
+Bozeman, MT, May 2017
+
+\emph{$^{*}$Theoretical Physics Implications with Future Gravitational Wave Detectors}. \\
+Poster Presentation at Undergraduate Research Celebration.\\
+Montana State University, April 2017
+
+\emph{${}^{\dagger}$Gravitational Wave Tests of General Relativity with Future Detectors}.\\
+APS April Meeting. \\
+Washington D.C., January 2017
+
+\emph{${}^{\dagger}$Constraints on Modified Gravity with Future Gravitational Wave Detectors}. \\
+Relativity and Astrophysics Seminar. \\
+Montana State University, October 2016
+
+\emph{$^{*}$Theoretical Physics with Multi-Band Gravitational Wave Astrophysics}. \\
+Poster Presentation at Undergraduate Research Celebration\\  Montana State University, April 2016
+\bigskip
+
+
+\section{\textsc{Press}}
+{\sl ``Looking for nothing to test gravity''} \hfill 2018\\
+Interview with Symmetry Magazine
+
+\section{\textsc{Outreach \& Service}}
+{\sl Member }\hfill 2019 - Present\\
+Steward Graduate Student Council\\
+University of Arizona\\
+{\footnotesize Acting liaison between faculty and graduate students, responsible for graduate student townhalls to discuss state of the graduate program. }
+
+{\sl Volunteer }\hfill 2019\\
+Warrior-Scholar Project\\
+University of Arizona\\
+{\footnotesize Taught students an introduction to programming in Python, led a Jupyter Notebook-based exoplanet research project, and provided tutoring help during students' homework sessions.}
+
+{\sl Founder}\hfill 2016 - 2018\\
+Society of Physics Students \emph{Coding Nights}\\
+Montana State University\\
+{\footnotesize Teaching basic coding courses in Mathematica and LaTeX to early undergraduate physics students.}
+
+{\sl Society of Physics Students}  \hfill 2013 - 2018\\
+Montana State University
+\begin{itemize}
+\item[-] President \hfill 2016 - 2017
+\item[-]Vice President \hfill 2015 - 2016
+\item[-]Student Representative \hfill 2017 - 2018
+\end{itemize}
+
+
+ \bigskip
+
+
+
+\section{\textsc{Memberships}} 
+\begin{itemize}
+\item[-] TiNy Titans (TNT) Collaboration \hfill 2018 - Present
+\item[-] American Astronomical Society \hfill 2018 - Present
+\item[-] LIGO Scientific Collaboration \hfill 2017
+\item[-] American Physical Society \hfill 2016 - 2019
+\item[-] eXtreme Gravity Institute at Montana State University \hfill 2015 - 2018
+\end{itemize}
+ \bigskip
+ 
+%\section{\textsc{References}}
+%\textbf{Nicolas Yunes} (Advisor) 		\hfill \textbf{Neil Cornish}\\
+%\emph{Associate Professor of Physics}		\hfill  \emph{Professor of Physics}\\
+%Montana State University 		\hfill  Montana State University\\
+%203 Barnard Hall			 \hfill  261A Barnard Hall\\
+%Bozeman, MT 59717 		\hfill Bozeman, MT 59717\\
+%1 (406) 994 3614		\hfill 1 (406) 994 7986 \\
+%nicolas.yunes@montana.edu 		\hfill ncornish@montana.edu
+%
+%
+%\textbf{Carla Riedel}\\
+%\emph{Teaching Professor of Physics}\\
+%Montana State University\\
+%211 Barnard Hall\\
+%Bozeman, MT 59717
+%1 (406) 994 6178\\
+%carla.riedel@montana.edu
+
+\end{resume}
+\end{document}
+
+
+
+
