@@ -11,7 +11,7 @@ jobs:
         uses: dante-ev/latex-action@2021-A
         with:
           working_directory: cv
-          root_file: $CV.tex
+          root_file: CV.tex
 # added by adrian:
 #       - name: HACK - remove gitignore so PDF is added and deployed
 #         run: rm tex/.gitignore
