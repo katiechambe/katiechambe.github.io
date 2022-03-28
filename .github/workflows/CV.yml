@@ -10,7 +10,7 @@ jobs:
       - name: LaTeX compilation
         uses: dante-ev/latex-action@2021-A
         with:
-          working_directory: CV
+          working_directory: cv
           root_file: $CV.tex
 # added by adrian:
 #       - name: HACK - remove gitignore so PDF is added and deployed
@@ -19,5 +19,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./CV
+          publish_dir: ./cv
           force_orphan: true
