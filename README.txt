@@ -1,5 +1,4 @@
 # ~ website ~
-Updated look at timing argument measurement of LG mass w LMC 
 
 Phantom by HTML5 UP
 html5up.net | @ajlkn
